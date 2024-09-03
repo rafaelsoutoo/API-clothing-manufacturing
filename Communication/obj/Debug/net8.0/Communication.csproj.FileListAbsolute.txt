@@ -1,0 +1,15 @@
+C:\me\manu\Manufacturing\Communication\bin\Debug\net8.0\Communication.deps.json
+C:\me\manu\Manufacturing\Communication\bin\Debug\net8.0\Communication.runtimeconfig.json
+C:\me\manu\Manufacturing\Communication\bin\Debug\net8.0\Communication.dll
+C:\me\manu\Manufacturing\Communication\bin\Debug\net8.0\Communication.pdb
+C:\me\manu\Manufacturing\Communication\obj\Debug\net8.0\Communication.csproj.AssemblyReference.cache
+C:\me\manu\Manufacturing\Communication\obj\Debug\net8.0\Communication.GeneratedMSBuildEditorConfig.editorconfig
+C:\me\manu\Manufacturing\Communication\obj\Debug\net8.0\Communication.AssemblyInfoInputs.cache
+C:\me\manu\Manufacturing\Communication\obj\Debug\net8.0\Communication.AssemblyInfo.cs
+C:\me\manu\Manufacturing\Communication\obj\Debug\net8.0\Communication.csproj.CoreCompileInputs.cache
+C:\me\manu\Manufacturing\Communication\obj\Debug\net8.0\Communication.sourcelink.json
+C:\me\manu\Manufacturing\Communication\obj\Debug\net8.0\Communication.dll
+C:\me\manu\Manufacturing\Communication\obj\Debug\net8.0\refint\Communication.dll
+C:\me\manu\Manufacturing\Communication\obj\Debug\net8.0\Communication.pdb
+C:\me\manu\Manufacturing\Communication\obj\Debug\net8.0\Communication.genruntimeconfig.cache
+C:\me\manu\Manufacturing\Communication\obj\Debug\net8.0\ref\Communication.dll
