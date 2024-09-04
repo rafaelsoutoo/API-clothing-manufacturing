@@ -1,38 +1,30 @@
 ﻿using Application.UseCase.Users.Register;
 using Communication.Requests;
 using Communication.Responses;
-using Infrastructure.Data;
 using Microsoft.AspNetCore.Mvc;
 
-namespace API.Controllers
+public class UserController : ControllerBase
 {
-    [Route("[controller]")]
-    [ApiController]
-    public class UserController : ControllerBase
+    private readonly RegisterUserUseCase _registerUserUseCase;
+
+    public UserController(RegisterUserUseCase registerUserUseCase)
     {
-        private readonly RegisterUserUseCase _registerUserUseCase;
+        _registerUserUseCase = registerUserUseCase;
+    }
 
-
-        public UserController(UserDbContext context)
+    [HttpPost("register")]
+    [ProducesResponseType(typeof(RegisterUserResponse), StatusCodes.Status201Created)]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
+    public async Task<IActionResult> Register([FromBody] RegisterUserRequest request)
+    {
+        try
         {
-            _registerUserUseCase = new RegisterUserUseCase(context);
+            var response = await _registerUserUseCase.Execute(request);
+            return CreatedAtAction(nameof(Register), new { id = response.Id }, response);
         }
-
-
-        [HttpPost("register")]
-        [ProducesResponseType(typeof(RegisterUserResponse), StatusCodes.Status201Created)]
-        [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public IActionResult Register([FromBody] RegisterUserRequest request)
+        catch (Exception ex)
         {
-            try
-            {
-                var response = _registerUserUseCase.Execute(request);
-                return CreatedAtAction(nameof(Register), new { id = response.Id }, response);
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(new { message = ex.Message });
-            }
+            return BadRequest(new { message = ex.Message });
         }
     }
 }

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\me\\manu\\Manufacturing\\Application\\Application.csproj": {}
+    "C:\\apps\\net\\api-manufacturing\\Application\\Application.csproj": {}
   },
   "projects": {
-    "C:\\me\\manu\\Manufacturing\\Application\\Application.csproj": {
+    "C:\\apps\\net\\api-manufacturing\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\me\\manu\\Manufacturing\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\apps\\net\\api-manufacturing\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\me\\manu\\Manufacturing\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\alunoftt01\\.nuget\\packages\\",
-        "outputPath": "C:\\me\\manu\\Manufacturing\\Application\\obj\\",
+        "projectPath": "C:\\apps\\net\\api-manufacturing\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\Felipe\\.nuget\\packages\\",
+        "outputPath": "C:\\apps\\net\\api-manufacturing\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\alunoftt01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Felipe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -33,11 +33,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\me\\manu\\Manufacturing\\Communication\\Communication.csproj": {
-                "projectPath": "C:\\me\\manu\\Manufacturing\\Communication\\Communication.csproj"
+              "C:\\apps\\net\\api-manufacturing\\Communication\\Communication.csproj": {
+                "projectPath": "C:\\apps\\net\\api-manufacturing\\Communication\\Communication.csproj"
               },
-              "C:\\me\\manu\\Manufacturing\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\me\\manu\\Manufacturing\\Infrastructure\\Infrastructure.csproj"
+              "C:\\apps\\net\\api-manufacturing\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\apps\\net\\api-manufacturing\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -100,20 +100,20 @@
         }
       }
     },
-    "C:\\me\\manu\\Manufacturing\\Communication\\Communication.csproj": {
+    "C:\\apps\\net\\api-manufacturing\\Communication\\Communication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\me\\manu\\Manufacturing\\Communication\\Communication.csproj",
+        "projectUniqueName": "C:\\apps\\net\\api-manufacturing\\Communication\\Communication.csproj",
         "projectName": "Communication",
-        "projectPath": "C:\\me\\manu\\Manufacturing\\Communication\\Communication.csproj",
-        "packagesPath": "C:\\Users\\alunoftt01\\.nuget\\packages\\",
-        "outputPath": "C:\\me\\manu\\Manufacturing\\Communication\\obj\\",
+        "projectPath": "C:\\apps\\net\\api-manufacturing\\Communication\\Communication.csproj",
+        "packagesPath": "C:\\Users\\Felipe\\.nuget\\packages\\",
+        "outputPath": "C:\\apps\\net\\api-manufacturing\\Communication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\alunoftt01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Felipe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -189,20 +189,20 @@
         }
       }
     },
-    "C:\\me\\manu\\Manufacturing\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\apps\\net\\api-manufacturing\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\me\\manu\\Manufacturing\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\apps\\net\\api-manufacturing\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\me\\manu\\Manufacturing\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\alunoftt01\\.nuget\\packages\\",
-        "outputPath": "C:\\me\\manu\\Manufacturing\\Infrastructure\\obj\\",
+        "projectPath": "C:\\apps\\net\\api-manufacturing\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Felipe\\.nuget\\packages\\",
+        "outputPath": "C:\\apps\\net\\api-manufacturing\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\alunoftt01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Felipe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

@@ -1,24 +1,24 @@
 ﻿using Communication.Requests;
 using Communication.Responses;
-using Infrastructure.Data;
 using Infrastructure.Models;
+using Infrastructure.Repositories;
 
 namespace Application.UseCase.Users.Register
 {
     public class RegisterUserUseCase
     {
-        private readonly UserDbContext _context;
+        private readonly InterfaceUser _repository;
 
-        public RegisterUserUseCase(UserDbContext context)
+        public RegisterUserUseCase(InterfaceUser repository)
         {
-            _context = context;
+            _repository = repository;
         }
 
-        public RegisterUserResponse Execute(RegisterUserRequest request)
+        public async Task<RegisterUserResponse> Execute(RegisterUserRequest request)
         {
-            var emailExist = _context.Users.FirstOrDefault(x => x.Email == request.Email);
-
-            if (emailExist != null) 
+            // Verifica se o e-mail já existe
+            var existingUser = await _repository.GetUserByEmail(request.Email);
+            if (existingUser != null)
             {
                 throw new Exception("Email already exists");
             }
@@ -30,16 +30,14 @@ namespace Application.UseCase.Users.Register
                 Password = request.Password,
             };
 
-            _context.Users.Add(user);
-            _context.SaveChanges();
+            // Cria o novo usuário usando o repositório
+            await _repository.CreateUser(user);
 
             return new RegisterUserResponse
             {
                 Id = user.Id,
                 Name = request.Name,
             };
-
-            
         }
     }
 }

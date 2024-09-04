@@ -1,12 +1,26 @@
 using Application.Settings;
 using Application.UseCase.Users.Authenticate;
+using Application.UseCase.Users.Register;
 using Infrastructure.Data;
+using Infrastructure.Repositories;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowOrigin",
+        policy =>
+        {
+            policy.AllowAnyOrigin()
+                  .AllowAnyHeader()
+                  .AllowAnyMethod();
+        });
+});
+
 
 
 builder.Services.AddDbContext<UserDbContext>(options =>
@@ -36,6 +50,9 @@ builder.Services.AddAuthentication(options =>
 
 builder.Services.AddScoped<AuthenticateUseCase>();
 
+builder.Services.AddScoped<InterfaceUser, RepositoryUser>();
+builder.Services.AddScoped<RegisterUserUseCase>();
+
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -49,9 +66,13 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
+
+app.UseCors("AllowOrigin");
+
 
 app.UseAuthorization();
+
 
 app.MapControllers();
 

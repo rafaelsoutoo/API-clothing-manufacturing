@@ -16,9 +16,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "API.Controllers.UserController",
+    "ContainingType": "UserController",
     "Method": "Register",
-    "RelativePath": "user/register",
+    "RelativePath": "register",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -40,12 +40,8 @@
         "StatusCode": 201
       },
       {
-        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
+        "Type": "System.Void",
+        "MediaTypes": [],
         "StatusCode": 400
       }
     ]

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\me\\manu\\Manufacturing\\Infrastructure\\Infrastructure.csproj": {}
+    "C:\\apps\\net\\api-manufacturing\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\me\\manu\\Manufacturing\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\apps\\net\\api-manufacturing\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\me\\manu\\Manufacturing\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\apps\\net\\api-manufacturing\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\me\\manu\\Manufacturing\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\alunoftt01\\.nuget\\packages\\",
-        "outputPath": "C:\\me\\manu\\Manufacturing\\Infrastructure\\obj\\",
+        "projectPath": "C:\\apps\\net\\api-manufacturing\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Felipe\\.nuget\\packages\\",
+        "outputPath": "C:\\apps\\net\\api-manufacturing\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\alunoftt01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Felipe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

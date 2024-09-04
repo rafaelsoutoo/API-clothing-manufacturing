@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\me\\manu\\Manufacturing\\Communication\\Communication.csproj": {}
+    "C:\\apps\\net\\api-manufacturing\\Communication\\Communication.csproj": {}
   },
   "projects": {
-    "C:\\me\\manu\\Manufacturing\\Communication\\Communication.csproj": {
+    "C:\\apps\\net\\api-manufacturing\\Communication\\Communication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\me\\manu\\Manufacturing\\Communication\\Communication.csproj",
+        "projectUniqueName": "C:\\apps\\net\\api-manufacturing\\Communication\\Communication.csproj",
         "projectName": "Communication",
-        "projectPath": "C:\\me\\manu\\Manufacturing\\Communication\\Communication.csproj",
-        "packagesPath": "C:\\Users\\alunoftt01\\.nuget\\packages\\",
-        "outputPath": "C:\\me\\manu\\Manufacturing\\Communication\\obj\\",
+        "projectPath": "C:\\apps\\net\\api-manufacturing\\Communication\\Communication.csproj",
+        "packagesPath": "C:\\Users\\Felipe\\.nuget\\packages\\",
+        "outputPath": "C:\\apps\\net\\api-manufacturing\\Communication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\alunoftt01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Felipe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
